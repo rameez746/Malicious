@@ -1,0 +1,419 @@
+# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+$ termux-setup-storage
+
+$
+$ cd /sdcard
+$
+$ pkg install git
+Checking availability of current mirror: ok
+Ign:1 https://dl.bintray.com/termux/termux-packages-24 stable InRelease
+Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Get:4 https://dl.bintray.com/termux/termux-packages-24 stable Release [8255 B]
+Hit:4 https://dl.bintray.com/termux/termux-packages-24 stable Release
+Get:6 https://dl.bintray.com/grimler/game-packages-24 games Release [5344 B]
+Hit:6 https://dl.bintray.com/grimler/game-packages-24 games Release
+Get:8 https://dl.bintray.com/grimler/science-packages-24 science Release [6191 B]
+Hit:8 https://dl.bintray.com/grimler/science-packages-24 science Release                                        Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+26 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+git is already the newest version (2.29.2).
+0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
+$ |pkg install python2
+bash: syntax error near unexpected token `|'
+$
+$ pkg install ruby
+Checking availability of current mirror: ok
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  binutils clang gdbm glib libffi libllvm libyaml make
+  ndk-sysroot pkg-config
+The following NEW packages will be installed:
+  binutils clang gdbm glib libffi libllvm libyaml make
+  ndk-sysroot pkg-config ruby
+0 upgraded, 11 newly installed, 0 to remove and 26 not upgraded.
+Need to get 46.1 MB/46.1 MB of archives.
+After this operation, 279 MB of additional disk space will be used.
+Do you want to continue? [Y/n] pkg install ruby
+Abort.
+$
+$ gem install lolcat
+The program gem is not installed. Install it by executing:
+ pkg install ruby
+$ git clone https://github.com/Hider5/Malicious
+Cloning into 'Malicious'...
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Hider5/Malicious/'
+$ cd Malicious
+bash: cd: Malicious: No such file or directory
+$
+$ pip2 install -r requirements.txt
+No command pip2 found, did you mean:
+ Command pico in package alpine
+ Command bzip2 in package bzip2
+ Command vipe in package moreutils
+ Command pick in package nmh from the unstable-repo repository
+ Command par2 in package par2
+ Command php in package php
+ Command pick in package pick
+ Command pil in package picolisp
+ Command pigz in package pigz
+ Command pup in package pup
+ Command spipe in package spiped
+ Command ip in package termux-tools
+ Command zip in package zip
+$
+$ python2 malicious.py
+The program python2 is not installed. Install it by executing:
+ pkg install python2
+$ python2 malicious.pyackages
+The program python2 is not installed. Install it by executing:
+ pkg install python2
+$
+$ $ termux-setup-storage
+irror: ok
+Ign:1 https://dl.bintray.com/termux/termux-packages-24 stable InRelease
+Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Get:4 https://dl.bintray.com/termux/termux-packages-24 stable Release [8255 B]
+Hit:4 https://dl.bintray.com/termux/termux-packages-24 stable Release
+Get:6 https://dl.bintray.com/grimler/game-packages-24 games Release [5344 B]
+Hit:6 https://dl.bintray.com/grimler/game-packages-24 games Release
+Get:8 https://dl.bintray.com/grimler/science-packages-24 science Release [6191 B]
+Hit:8 https://dl.bintray.com/grimler/science-packages-24 science Release                                        Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+26 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+git is already the newest version (2.29.2).
+0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
+$ |pkg install python2
+bash: syntax error near unexpected token `|'
+$
+$ pkg install ruby
+Checking availability of current mirror: ok
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  binutils clang gdbm glib libffi libllvm libyaml make
+  ndk-sysroot pkg-config
+The following NEW packages will be installed:
+  binutils clang gdbm glib libffi libllvm libyaml make
+  ndk-sysroot pkg-config ruby
+0 upgraded, 11 newly installed, 0 to remove and 26 not upgraded.
+Need to get 46.1 MB/46.1 MB of archives.
+After this operation, 279 MB of additional disk space will be used.
+Do you want to continue? [Y/n] pkg install ruby
+Abort.
+$
+$ gem install lolcat
+The program gem is not installed. Install it by executing:
+ pkg install ruby
+$ git clone https://github.com/Hider5/Malicious
+Cloning into 'Malicious'...
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Hider5/Malicious/'
+$ cd Malicious
+bash: cd: Malicious: No such file or directory
+$
+$ pip2 install -r requirements.txt
+No command pip2 found, did you mean:
+ Command pico in package alpine
+ Command bzip2 in package bzip2
+ Command vipe in package moreutils
+ Command pick in package nmh from the unstable-repo repository
+ Command par2 in package par2
+ Command php in package php
+ Command pick in package pick
+ Command pil in package picolisp
+ Command pigz in package pigz
+ Command pup in package pup
+ Command spipe in package spiped
+ Command ip in package termux-tools
+ Command zip in package zip
+$
+$ python2 malicious.py
+The program python2 is not installed. Install it by executing:
+ pkg install python2
+$ python2 malicious.pyackages
+The program python2 is not installed. Install it by executing:
+ pkg install python2
+$No command $ found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$
+$ $
+No command $ found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$ $ cd /sdcard
+No command $ found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$ $
+No command $ found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$ $ pkg install git
+No command $ found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$ Checking availability of current mirror: ok
+Checking: command not found
+$ Ign:1 https://dl.bintray.com/termux/termux-packages-24 stable InRelease
+Ign:1: command not found
+$ Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+No command Ign:2 found, did you mean:
+ Command gpg2 in package gnupg
+ Command idn2 in package libidn2
+$ Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Ign:3: command not found
+$ Get:4 https://dl.bintray.com/termux/termux-packages-24 stable Release [8255 B]
+No command Get:4 found, did you mean:
+ Command geth in package geth
+ Command net in package samba from the unstable-repo repository
+ Command detex in package texlive-bin
+$ Hit:4 https://dl.bintray.com/termux/termux-packages-24 stable Release
+No command Hit:4 found, did you mean:
+ Command git in package git
+ Command gitk in package git-gitk
+ Command gitea in package gitea
+ Command gitfm in package gnuit
+$ Get:6 https://dl.bintray.com/grimler/game-packages-24 games Release [5344 B]
+No command Get:6 found, did you mean:
+ Command geth in package geth
+ Command net in package samba from the unstable-repo repository
+ Command detex in package texlive-bin
+$ Hit:6 https://dl.bintray.com/grimler/game-packages-24 games Release
+No command Hit:6 found, did you mean:
+ Command git in package git
+ Command gitk in package git-gitk
+ Command gitea in package gitea
+ Command gitfm in package gnuit
+ Command ping6 in package termux-tools
+$ Get:8 https://dl.bintray.com/grimler/science-packages-24 science Release [6191 B]
+No command Get:8 found, did you mean:
+ Command geth in package geth
+ Command net in package samba from the unstable-repo repository
+ Command detex in package texlive-bin
+$ Hit:8 https://dl.bintray.com/grimler/science-packages-24 science Release                                        Reading package lists... Done
+No command Hit:8 found, did you mean:
+ Command git in package git
+ Command gitk in package git-gitk
+ Command gitea in package gitea
+ Command gitfm in package gnuit
+$ Building dependency tree
+Building: command not found
+$ Reading state information... Done
+No command Reading found, did you mean:
+ Command readlink in package coreutils
+$ 26 packages can be upgraded. Run 'apt list --upgradable' to see them.
+No command 26 found, did you mean:
+ Command ab in package apache2
+ Command a2x in package asciidoc
+ Command at in package at from the unstable-repo repository
+ Command bc in package bc
+ Command ar in package binutils
+ Command cc in package clang
+ Command [ in package coreutils
+ Command lp in package cups from the unstable-repo repository
+ Command sh in package dash
+ Command dx in package dx
+ Command ed in package ed
+ Command ef in package electric-fence
+ Command fd in package fd
+ Command dl in package gatling
+ Command gh in package gh
+ Command gs in package ghostscript
+ Command go in package golang
+ Command gm in package graphicsmagick
+ Command gc in package graphviz
+ Command i3 in package i3 from the x11-repo repository
+ Command iw in package iw from the root-repo repository
+ Command jo in package jo
+ Command jq in package jq
+ Command k in package kona
+ Command lf in package lf
+ Command m4 in package m4
+ Command mc in package mc
+ Command mg in package mg
+ Command ts in package moreutils
+ Command lz in package mtools
+ Command mu in package mu
+ Command mr in package myrepos
+ Command ne in package ne
+ Command nc in package netcat
+ Command nu in package nushell
+ Command o in package o
+ Command o in package o-editor
+ Command 7z in package p7zip
+ Command ps in package procps
+ Command pv in package pv
+ Command r2 in package radare2
+ Command ci in package rcs
+ Command rc in package rcshell
+ Command rg in package ripgrep
+ Command ri in package ruby-ri
+ Command sv in package runit
+ Command sc in package sc
+ Command ag in package silversearcher-ag
+ Command sl in package sl
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw from the unstable-repo repository
+ Command ts in package task-spooler
+ Command am in package termux-am
+ Command df in package termux-tools
+ Command ht in package texlive-bin
+ Command sn in package tin-summer
+ Command tf in package tinyfugue
+ Command ul in package util-linux
+ Command cu in package uucp
+ Command vi in package vim
+ Command ex in package vim-gtk from the x11-repo repository
+ Command vi in package vim-python
+ Command vt in package virustotal-cli
+ Command v in package vlang from the unstable-repo repository
+ Command wg in package wireguard-tools
+ Command x264 in package x264
+ Command x265 in package x265
+ Command x2x in package x2x from the x11-repo repository
+ Command xz in package xz-utils
+ Command z3 in package z3
+$ Reading package lists... Done
+No command Reading found, did you mean:
+ Command readlink in package coreutils
+$ Building dependency tree
+Building: command not found
+$ Reading state information... Done
+No command Reading found, did you mean:
+ Command readlink in package coreutils
+$ git is already the newest version (2.29.2).
+bash: syntax error near unexpected token `('
+$ 0 upgraded, 0 newly installed, 0 to remove and 26 not upgraded.
+No command 0 found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$ $ |pkg install python2
+No command $ found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+Checking availability of current mirror: ok
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  binutils clang gdbm glib libffi libllvm libsqlite
+  make ncurses-ui-libs ndk-sysroot pkg-config
+The following NEW packages will be installed:
+  binutils clang gdbm glib libffi libllvm libsqlite
+  make ncurses-ui-libs ndk-sysroot pkg-config python2
+0 upgraded, 12 newly installed, 0 to remove and 26 not upgraded.
+Need to get 46.9 MB/47.4 MB of archives.
+After this operation, 276 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Abort.
+$ bash: syntax error near unexpected token `|'
+> $
+> $ pkg install ruby
+> Checking availability of current mirror: ok
+> Reading package lists... Done
+> Building dependency tree
+> Reading state information... Done
+> The following additional packages will be installed:
+>   binutils clang gdbm glib libffi libllvm libyaml make>   ndk-sysroot pkg-config
+> The following NEW packages will be installed:
+>   binutils clang gdbm glib libffi libllvm libyaml make>   ndk-sysroot pkg-config ruby
+> 0 upgraded, 11 newly installed, 0 to remove and 26 not upgraded.
+> Need to get 46.1 MB/46.1 MB of archives.
+> After this operation, 279 MB of additional disk space will be used.
+> Do you want to continue? [Y/n] pkg install ruby
+> Abort.
+> $
+> $ gem install lolcat
+> The program gem is not installed. Install it by executing:
+>  pkg install ruby
+> $ git clone https://github.com/Hider5/Malicious
+> Cloning into 'Malicious'...
+> Username for 'https://github.com':
+> Password for 'https://github.com':
+> remote: Repository not found.
+> fatal: Authentication failed for 'https://github.com/Hider5/Malicious/'
+> $ cd Malicious
+> bash: cd: Malicious: No such file or directory
+> $
+> $ pip2 install -r requirements.txt
+> No command pip2 found, did you mean:
+>  Command pico in package alpine
+>  Command bzip2 in package bzip2
+>  Command vipe in package moreutils
+>  Command pick in package nmh from the unstable-repo repository
+>  Command par2 in package par2
+>  Command php in package php
+>  Command pick in package pick
+>  Command pil in package picolisp
+>  Command pigz in package pigz
+>  Command pup in package pup
+>  Command spipe in package spiped
+>  Command ip in package termux-tools
+>  Command zip in package zip
+> $
+> $ python2 malicious.py
+> The program python2 is not installed. Install it by executing:
+>  pkg install python2
+> $ python2 malicious.pyackages
+> The program python2 is not installed. Install it by executing:
+>  pkg install python2
+>
